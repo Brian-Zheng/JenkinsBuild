@@ -9,7 +9,7 @@ public class TestApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TestApplication.class, args);
 		System.out.println("Start spring boot");
-		System.out.println("Start spring boot3");
+		System.out.println("Start spring boot4");
 	}
 
 }
