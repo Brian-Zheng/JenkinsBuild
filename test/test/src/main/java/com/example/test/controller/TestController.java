@@ -17,6 +17,6 @@ public class TestController {
 	@GetMapping("/")
 	public String helloPage() {
 		System.out.println(env.getTest1());
-		return "Hello! Spring Boot!";
+		return "Hello! Spring Boot! ENV:" + env.getTest1();
 	}
 }
